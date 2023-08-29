@@ -10,7 +10,7 @@ and open the template in the editor.
 
 .header {
   overflow: hidden;
-  background-color: aliceblue;
+  background-color: #ccc;
   padding: 20px 10px;
 }
 
@@ -31,18 +31,51 @@ and open the template in the editor.
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #ccc;
   color: black;
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #ddd;
   color: white;
 }
 
 .header-right {
   float: right;
 }
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+span{
+    color: darkgray;
+}
+
+p{
+    font-size: 14px;
+    color: darkgray;
+    margin: 50px 0;
+}
+
+.ab{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.sec2 p{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin: 50px 0;
+}
+
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -76,7 +109,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: blue;
+  background-color: darkblue;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -138,6 +171,7 @@ body {
 
 .main {
   margin-left: 200px;
+  margin-right: 100px;
 }
 
 @media screen and (max-height: 450px) {
@@ -206,4 +240,8 @@ button{
 }
 table td{
     padding: 15px;
+}
+
+h3{
+    text-align: center;
 }
